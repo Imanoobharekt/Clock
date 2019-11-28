@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<body>
-
-<canvas id="canvas" width="400" height="400" style="background-color:black"></canvas>
-<script>
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 var radius = canvas.height / 2;
@@ -84,11 +76,3 @@ function drawHand(ctx, pos, length, width) {
   ctx.stroke();
   ctx.rotate(-pos);
 }
-</script>
-<style>
-body{
-background:white;}
-</style>
-</body>
-</head>
-</html>
